@@ -20,6 +20,7 @@
 
 
 <script>
+   function login(Username) {
 
 if (Username == '') {
                 error = 1;
@@ -27,6 +28,14 @@ if (Username == '') {
                 return false;
 
             }
+            else {
+
+if (error == 0) {
+    document.getElementById("file").submit();
+    return false;
+    
+
+}
            
 </script>
 </body>
