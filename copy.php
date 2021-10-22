@@ -12,7 +12,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 // echo "Connected successfully";
-include 'Function.php';
+include 'functionliy.php';
 
 
 
@@ -30,7 +30,7 @@ include 'Function.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="javascriptcode.js"></script>
+
     <link rel="stylesheet" href="style.css">
 
  
@@ -75,10 +75,7 @@ include 'Function.php';
                 </tr>
             </table>
         </div>
-<script>
-    <?php
-    include 'javascriptcode.js'?>
-    </script>
+
 </body>
 <!--body part ends here-->
 </html>

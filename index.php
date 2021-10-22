@@ -13,6 +13,7 @@ if ($conn->connect_error) {
 }
 // echo "Connected successfully";
 include 'insert.php';
+include 'functionlity.php'
 
 
 ?>
