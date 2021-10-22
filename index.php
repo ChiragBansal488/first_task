@@ -1,25 +1,4 @@
-<!--Database Connection>
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "user";
-// Create connection
-$conn = new mysqli($servername, $username, $password, $database);
 
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-// echo "Connected successfully";
-include 'insert.php';
-include 'functionlity.php'
-
-
-?>
-
-
-<--  HTML CODE -->
 
 
 <!DOCTYPE html>
@@ -30,7 +9,7 @@ include 'functionlity.php'
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="javascriptcode.js"></script>
+    <script src="user1.js"></script>
     <link rel="stylesheet" href="style.css">
 
  
@@ -68,7 +47,7 @@ include 'functionlity.php'
 
 
                         </form>
-                        <input type="button" value="Submit" onclick="login(this)" class="btn" />
+                        <input type="button" value="Submit" onclick="A(usrname)" class="btn" />
                       
                     </td>
                 </tr>
