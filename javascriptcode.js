@@ -52,9 +52,8 @@ var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{1,4})+$/; 
                 error = 1;
                alert("Enter valid usrname id.");
                 return false;
-
-            }
-        
+       
+        }        
             
 
 
