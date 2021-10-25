@@ -76,5 +76,13 @@ include 'insert.php';
         </div>
 
 </body>
+
+
+
 <!--body part ends here-->
+
+
+
+
+
 </html>
