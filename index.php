@@ -68,8 +68,8 @@ include 'insert.php';
 
 
                         </form>
-                        <input type="button" value="Submit" onclick="login(this)" class="btn" />
-                      
+                        <input type="button" value="Submit" onclick="login()" id="validations" class="btn" />
+             
                     </td>
                 </tr>
             </table>
