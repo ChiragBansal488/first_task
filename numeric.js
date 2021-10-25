@@ -2,7 +2,7 @@ function numeric(usr){
 
     if(!/^[0-9]+$/.test(usr.value)) {
  
-        error = "The username one numeric value.\n";
+        error ("The username all numeric value.\n");
        alert(error);
       return false;
         

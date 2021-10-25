@@ -1,4 +1,6 @@
 
+
+
 <!--Database Connection>
 <?php
 $servername = "localhost";
@@ -7,18 +9,13 @@ $password = "";
 $database = "user";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
-
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 // echo "Connected successfully";
 include 'insert.php';
-
-
-
 ?>
-
 <-- Html code-->
 
 <!DOCTYPE html>
@@ -31,10 +28,11 @@ include 'insert.php';
     <title>Document</title>
     <script src="javascriptcode.js"></script>
     <link rel="stylesheet" href="style.css">
+   <script src="blank.js"></script>
+    <script src="length.js"></script>
+    <script src="numeric.js"></script>
+    <script src="illegalletter.js"></script>
 
-
- 
-    </head>
 
 
 
@@ -57,7 +55,7 @@ include 'insert.php';
                     <td id="comment">Enter Phone Number :</td>
 
                     <form action="insert.php" method="POST" id="file">
-                        <td><input type="number"  name="validation"
+                        <td><input type="numeric"  name="validation"
                                 id="validations" /></td>
                                 
                 </tr>
@@ -68,7 +66,7 @@ include 'insert.php';
 
 
                         </form>
-                        <input type="button" value="Submit" onclick="validation()" class="btn" />
+                        <input type="button" value="Submit" onclick="blank(validations)" class="btn" />
                       
                     </td>
                 </tr>
@@ -77,7 +75,7 @@ include 'insert.php';
 
 </body>
 
-
+</head>
 
 <!--body part ends here-->
 

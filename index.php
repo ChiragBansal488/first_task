@@ -33,7 +33,8 @@ include 'insert.php';
     <script src="javascriptcode.js"></script>
     <link rel="stylesheet" href="style.css">
 
- 
+  
+
     </head>
 
 <!--body part-->
@@ -68,7 +69,8 @@ include 'insert.php';
 
 
                         </form>
-                        <input type="button" value="Submit" onclick="login()" id="validations" class="btn" />
+                        <input type="button" value="Submit" onclick="login()" class="btn" />
+               
              
                     </td>
                 </tr>
