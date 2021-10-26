@@ -8,6 +8,7 @@ function length(usr)
    
      } 
      else{
-        alert(" your number is registered");
+        numeric(usr);
+
      }
 }

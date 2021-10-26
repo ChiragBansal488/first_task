@@ -2,12 +2,14 @@ function blank(usr)
 {
     
  if (usr.value == "") {
-    usr.style.background = 'Yellow';
-     error = "You didn't enter a username.\n";
+ 
+
+     error = "You didn't enter a phone number.\n";
      alert(error);
       return false;
 
 }
-else
+else{
     length(usr);
+}
 }

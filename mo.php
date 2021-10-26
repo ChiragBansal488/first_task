@@ -26,13 +26,12 @@ include 'insert.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="javascriptcode.js"></script>
+   <script src="javascriptcode.js"></script>
     <link rel="stylesheet" href="style.css">
-   <script src="blank.js"></script>
-    <script src="length.js"></script>
-
-  
-
+  <script src="blank.js"></script>
+   <script src="length.js"></script> 
+   <script src="numeric.js"></script> 
+   </head>
 
 
 
@@ -40,7 +39,7 @@ include 'insert.php';
     <p id="demo"></p>
 
   
-    <div id="container">
+    <div id="demo">
         <div class="register">
             <h2>Login Page </h2>
         </div>
@@ -55,7 +54,7 @@ include 'insert.php';
                     <td id="comment">Enter Phone Number :</td>
 
                     <form action="insert.php" method="POST" id="file">
-                        <td><input type="numeric"  name="validation"
+                        <td><input type="number"  name="validation"
                                 id="validations" /></td>
                                 
                 </tr>
@@ -71,15 +70,13 @@ include 'insert.php';
                     </td>
                 </tr>
             </table>
-        </div>
+
 
 </body>
 
-</head>
+
 
 <!--body part ends here-->
-
-
 
 
 

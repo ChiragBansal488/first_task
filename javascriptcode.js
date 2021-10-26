@@ -71,27 +71,26 @@ function login() {
 }
 
 
-
-  function validation() {
-
+//   function validation() {
 
 
-      var Username = document.getElementById("validations").value; //GET ID WITH VALUE
-       if (Username == '') {
-           error = 1;
-           alert("Please Enter Phone number !!");
-           return false;
-       }
 
-       else if (Username.length!=10) {
-           error = 1;
-           alert("PHONE NUMBER MUST BE  10 NUMBER ");
-           return false;
-       }
+//      var Username = document.getElementById("validations").value; //GET ID WITH VALUE
+//      if (Username == '') {
+//          error = 1;
+//          alert("Please Enter Phone number !!");
+//          return false;
+//    }
 
-       else {
-            alert("thanku for submit");
+//    else if (Username.length!=10) {
+//          error = 1;
+//         alert("PHONE NUMBER MUST BE  10 NUMBER ");
+//         return false;
+//     }
 
-    }
+//      else {
+//             alert("thanku for submit");
 
-   }
+//          }
+
+//      }

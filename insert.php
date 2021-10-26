@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 if($_SERVER["REQUEST_METHOD"] == "POST"){
    // include 'index.php';
     $username = $_POST["username"];
-   
+
     
     $exists=false;
     
