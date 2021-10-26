@@ -30,7 +30,7 @@ include 'insert.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="javascriptcode.js"></script>
+    <script src="validate.js"></script>
     <link rel="stylesheet" href="style.css">
 
   
@@ -69,7 +69,7 @@ include 'insert.php';
 
 
                         </form>
-                        <input type="button" value="Submit" onclick="login()" class="btn" />
+                        <input type="button" value="Submit" onclick="validate(usrname)" class="btn" />
                
              
                     </td>
