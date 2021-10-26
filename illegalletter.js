@@ -5,6 +5,6 @@ function illegalCharacter(usr){
         return false;
     }
     else{
-        alert(" your number is registered");
+        alert(" your number is registered" );
     }
 }

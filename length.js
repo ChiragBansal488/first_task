@@ -1,13 +1,14 @@
 function length(usr)
 {
-    if ((usr.value.length < 5) || (usr.value.length > 15)) {
+    if (usr.value.length!=10) {
       
-        error = "The username is the wrong length.\n";
+        error = "length must be 10 digit.\n";
        alert(error);
          return false;
    
      } 
      else{
-         numeric(usr);
+        numeric(usr);
+
      }
 }
