@@ -1,3 +1,4 @@
+
 <!--Database Connection>
 <?php
 $servername = "localhost";
@@ -6,21 +7,14 @@ $password = "";
 $database = "user";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
-
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 // echo "Connected successfully";
 include 'insert.php';
-
-
-
 ?>
-
-
-<--  HTML CODE -->
-
+<-- Html code-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,20 +24,17 @@ include 'insert.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="validate.js"></script>
     <link rel="stylesheet" href="style.css">
+  <script src="validate.js"></script>
+   </head>
 
-  
 
-    </head>
-
-<!--body part-->
 
 <body>
     <p id="demo"></p>
 
   
-    <div id="container">
+    <div id="demo">
         <div class="register">
             <h2>Login Page </h2>
         </div>
@@ -55,12 +46,12 @@ include 'insert.php';
         <div class="login">
             <table cellspacing="2" align="center" >
                 <tr>
-                    <td id="comment">Enter User Name :</td>
+                    <td id="comment">Enter Phone Number :</td>
 
                     <form action="insert.php" method="POST" id="file">
-                        <td><input type="text"  name="username"
-                                id="usrname" /></td>
-                                
+                        <td><input type="text"  name="validation"
+                                id="validations" /></td>
+</div>                
                 </tr>
 
                 <tr>
@@ -69,14 +60,17 @@ include 'insert.php';
 
 
                         </form>
-                        <input type="button" value="Submit" onclick="validate(usrname)" class="btn" />
-               
-             
+                        <input type="button" value="Submit" onclick="validate(validations) ;illegalCharacter(validations)" class="btn" />
+                      
                     </td>
                 </tr>
             </table>
-        </div>
+
 
 </body>
+
+
+
 <!--body part ends here-->
+
 </html>
