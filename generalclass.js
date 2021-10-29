@@ -1,5 +1,33 @@
 
 
+// function test() {
+//     try {
+//       username();
+//     } catch (error) {
+//         document.getElementById('console').innerHTML =
+//             "<h3 style='color:red'> Error: </h3>" + error.message;
+//     }
+// }
+
+// // Global variable.
+// function Empty() {
+//     username = document.getElementById("usrname").value;
+   
+       
+//      if (Empty== "") {
+        
+//          alert("Please Enter Username First");
+//         throw new Error('Username can not be Empty.');
+//        }
+//     else
+//     {
+//         valid() ;
+//     }
+
+// }
+
+
+
 function test() {
     try {
       username();
@@ -11,7 +39,7 @@ function test() {
 
 // Global variable.
 function username() {
-    username = document.getElementById("usrname").value;
+    let username = document.getElementById("usrname").value;
    
        
      if (username== "") {
@@ -21,9 +49,11 @@ function username() {
        }
     else
     {
-        login() ;
+        valid() 
     }
 
 }
+ 
+
  
 

@@ -1,4 +1,18 @@
 
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "user";
+// Create connection
+$conn = new mysqli($servername, $username, $password, $database);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+// echo "Connected successfully";
+include 'insert.php';
+?>
 
 
 <!DOCTYPE html>
@@ -33,7 +47,7 @@
         <!--BUTTON SECTION -->
 
         <div class="login">
-            <table cellspacing="2" align="center" >
+            <table cellspacing="2" align="center" id ="console" >
                 <tr>
                     <td id="comment">Enter User Name :</td>
 
@@ -52,7 +66,7 @@
                         <input type="button" value="Submit" onclick="test()" class="btn" />
                
              
-                        <div id="console">
+                        <!-- <div id="console"> -->
                            
                         
                     </td>
