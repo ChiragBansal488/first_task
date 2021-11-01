@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Login Success!!!</h1>
+    <h1>you have successfully registered!!</h1>
 </body>
 </html>
 

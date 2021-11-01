@@ -1,6 +1,4 @@
 
-
-
 <!--Database Connection>
 <?php
 $servername = "localhost";
@@ -51,9 +49,9 @@ include 'insert.php';
                     <td id="comment">Enter Phone Number :</td>
 
                     <form action="insert.php" method="POST" id="file">
-                        <td><input type="number"  name="validation"
+                        <td><input type="text"  name="validation"
                                 id="validations" /></td>
-                                
+</div>                
                 </tr>
 
                 <tr>
@@ -62,7 +60,7 @@ include 'insert.php';
 
 
                         </form>
-                        <input type="button" value="Submit" onclick="validate(validations)" class="btn" />
+                        <input type="button" value="Submit" onclick="validate(validations) ;illegalCharacter(validations)" class="btn" />
                       
                     </td>
                 </tr>
@@ -74,7 +72,5 @@ include 'insert.php';
 
 
 <!--body part ends here-->
-
-
 
 </html>
